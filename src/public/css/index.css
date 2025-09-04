@@ -1,0 +1,142 @@
+.main-section {
+    background-color: #d1e7dd;
+    color: #0f5132;
+    border-color: #badbcc;
+}
+
+.main-section__error {
+    padding: 10px 30px;
+}
+
+.todo__alert--danger{
+    padding: 10px 0;
+    background-color: #f8d7da;
+    color: #842029;
+    border-color: #f5c2c7;
+}
+
+.todo__alert--danger ul {
+    margin: 0;
+}
+
+/* 入力欄 */
+
+.main-section__text {
+    width: 800px;
+    /* background-color: yellowgreen; */
+    margin: 0 auto;
+    max-width: 1230px;
+}
+
+.form-title{
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.create-form,.search-form {
+    margin: 0px 0 60px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.create-text {
+    height: 40px;
+    width: 400px;
+    border-radius: 3px;
+    margin-left: 0px;
+    border:  1px solid #ddd;
+}
+
+.category-text {
+    height: 40px;
+    width: 200px;
+    border-radius: 3px;
+    margin-left: 10px;
+    border: 1px solid #ddd;
+    appearance:none;
+}
+
+.create-button,.search-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 45px;
+    text-align: right;
+    border-radius: 3px;
+    box-shadow: none;
+    margin: 0 0 0 auto;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+/* ここからリスト */
+
+.list {
+    width: 800px;
+    margin-top: 0px;
+}
+
+th, td{
+    border-bottom: 1px solid #ddd;
+    height: 20px;
+}
+
+.table__title {
+    text-align: left;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.table__title-sell{
+    display: flex;
+}
+
+.update-form__item-input {
+    border:none;
+    vertical-align: bottom;
+}
+
+.table__title-category{
+    margin-left: 250px;
+}
+
+.list-sell {
+    font-size: 20px;
+}
+
+.list-sell:first-of-type{
+    padding: 12px;
+    width: 90%;
+}
+
+.update-form{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.button-sell {
+    width: 100px;
+}
+
+.button__update {
+    background-color: #0000ff;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px 10px auto;
+}
+
+.button__delete {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
